@@ -1,0 +1,45 @@
+body {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	min-height: 100vh;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background-color: #757575;
+}
+
+main {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 0 auto;
+	    -ms-flex: 1 0 auto;
+	        flex: 1 0 auto;
+}
+
+.card-content {
+	min-height: 220px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#quote-content {
+	line-height: 1.2;
+}
+
+.preloader-wrapper {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+#loader,
+#twitter-button {
+	margin-left: 5px;
+	display: none;
+}
+
+#quote-author {
+	display: inline-block;
+}
